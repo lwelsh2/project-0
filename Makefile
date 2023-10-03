@@ -7,7 +7,7 @@
 # appropriate location.
 
 install:
-	# Nothing installed
+	mv credentials-skel.ini credentials.ini && mv credentials.ini /usr/local/Homebrew/project-0/hello
 
 run:
 	@(cd hello; python3 hello.py)
